@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC12E9631D40BE9F00056016 /* FSLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EC12E9621D40BE9F00056016 /* FSLanguageTool.m */; };
+		EC12E9681D40C86D00056016 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC12E9671D40C86D00056016 /* Main.strings */; };
+		EC12E96B1D40CB6C00056016 /* Person.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC12E96D1D40CB6C00056016 /* Person.strings */; };
+		EC24A9701D405467007A1141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC24A96F1D405467007A1141 /* main.m */; };
+		EC24A9731D405467007A1141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC24A9721D405467007A1141 /* AppDelegate.m */; };
+		EC24A9761D405467007A1141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC24A9751D405467007A1141 /* ViewController.m */; };
+		EC24A9791D405467007A1141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC24A9771D405467007A1141 /* Main.storyboard */; };
+		EC24A97B1D405467007A1141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC24A97A1D405467007A1141 /* Assets.xcassets */; };
+		EC24A97E1D405467007A1141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC24A97C1D405467007A1141 /* LaunchScreen.storyboard */; };
+		EC24A9891D405467007A1141 /* LanguageSettingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC24A9881D405467007A1141 /* LanguageSettingDemoTests.m */; };
+		EC24A9941D405467007A1141 /* LanguageSettingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC24A9931D405467007A1141 /* LanguageSettingDemoUITests.m */; };
+		EC24A9AB1D405E91007A1141 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = EC24A9AA1D405E91007A1141 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC24A9851D405467007A1141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC24A9631D405467007A1141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC24A96A1D405467007A1141;
+			remoteInfo = LanguageSettingDemo;
+		};
+		EC24A9901D405467007A1141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC24A9631D405467007A1141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC24A96A1D405467007A1141;
+			remoteInfo = LanguageSettingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC12E9611D40BE9F00056016 /* FSLanguageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLanguageTool.h; sourceTree = "<group>"; };
+		EC12E9621D40BE9F00056016 /* FSLanguageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLanguageTool.m; sourceTree = "<group>"; };
+		EC12E9671D40C86D00056016 /* Main.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Main.strings; sourceTree = "<group>"; };
+		EC12E9691D40C8F000056016 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EC12E96A1D40C8F000056016 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		EC12E96C1D40CB6C00056016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Person.strings; sourceTree = "<group>"; };
+		EC12E96E1D40CB7600056016 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Person.strings; sourceTree = "<group>"; };
+		EC12E96F1D40CB7800056016 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Person.strings"; sourceTree = "<group>"; };
+		EC12E9711D40CB9100056016 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		EC24A96B1D405467007A1141 /* LanguageSettingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageSettingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC24A96F1D405467007A1141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC24A9711D405467007A1141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC24A9721D405467007A1141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC24A9741D405467007A1141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC24A9751D405467007A1141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC24A9781D405467007A1141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC24A97A1D405467007A1141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC24A97D1D405467007A1141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC24A97F1D405467007A1141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC24A9841D405467007A1141 /* LanguageSettingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageSettingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC24A9881D405467007A1141 /* LanguageSettingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSettingDemoTests.m; sourceTree = "<group>"; };
+		EC24A98A1D405467007A1141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC24A98F1D405467007A1141 /* LanguageSettingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageSettingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC24A9931D405467007A1141 /* LanguageSettingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageSettingDemoUITests.m; sourceTree = "<group>"; };
+		EC24A9951D405467007A1141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC24A9A91D405E91007A1141 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		EC24A9AA1D405E91007A1141 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC24A9681D405467007A1141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC24A9811D405467007A1141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC24A98C1D405467007A1141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC12E9601D40BE2B00056016 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				EC12E9611D40BE9F00056016 /* FSLanguageTool.h */,
+				EC12E9621D40BE9F00056016 /* FSLanguageTool.m */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
+		EC24A9621D405467007A1141 = {
+			isa = PBXGroup;
+			children = (
+				EC24A96D1D405467007A1141 /* LanguageSettingDemo */,
+				EC24A9871D405467007A1141 /* LanguageSettingDemoTests */,
+				EC24A9921D405467007A1141 /* LanguageSettingDemoUITests */,
+				EC24A96C1D405467007A1141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC24A96C1D405467007A1141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC24A96B1D405467007A1141 /* LanguageSettingDemo.app */,
+				EC24A9841D405467007A1141 /* LanguageSettingDemoTests.xctest */,
+				EC24A98F1D405467007A1141 /* LanguageSettingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC24A96D1D405467007A1141 /* LanguageSettingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC12E9601D40BE2B00056016 /* tool */,
+				EC24A9711D405467007A1141 /* AppDelegate.h */,
+				EC24A9721D405467007A1141 /* AppDelegate.m */,
+				EC24A9741D405467007A1141 /* ViewController.h */,
+				EC24A9751D405467007A1141 /* ViewController.m */,
+				EC24A9A91D405E91007A1141 /* ViewController2.h */,
+				EC24A9AA1D405E91007A1141 /* ViewController2.m */,
+				EC12E96D1D40CB6C00056016 /* Person.strings */,
+				EC12E9671D40C86D00056016 /* Main.strings */,
+				EC24A9771D405467007A1141 /* Main.storyboard */,
+				EC24A97A1D405467007A1141 /* Assets.xcassets */,
+				EC24A97C1D405467007A1141 /* LaunchScreen.storyboard */,
+				EC24A97F1D405467007A1141 /* Info.plist */,
+				EC24A96E1D405467007A1141 /* Supporting Files */,
+			);
+			path = LanguageSettingDemo;
+			sourceTree = "<group>";
+		};
+		EC24A96E1D405467007A1141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC24A96F1D405467007A1141 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC24A9871D405467007A1141 /* LanguageSettingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC24A9881D405467007A1141 /* LanguageSettingDemoTests.m */,
+				EC24A98A1D405467007A1141 /* Info.plist */,
+			);
+			path = LanguageSettingDemoTests;
+			sourceTree = "<group>";
+		};
+		EC24A9921D405467007A1141 /* LanguageSettingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC24A9931D405467007A1141 /* LanguageSettingDemoUITests.m */,
+				EC24A9951D405467007A1141 /* Info.plist */,
+			);
+			path = LanguageSettingDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC24A96A1D405467007A1141 /* LanguageSettingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC24A9981D405467007A1141 /* Build configuration list for PBXNativeTarget "LanguageSettingDemo" */;
+			buildPhases = (
+				EC24A9671D405467007A1141 /* Sources */,
+				EC24A9681D405467007A1141 /* Frameworks */,
+				EC24A9691D405467007A1141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageSettingDemo;
+			productName = LanguageSettingDemo;
+			productReference = EC24A96B1D405467007A1141 /* LanguageSettingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC24A9831D405467007A1141 /* LanguageSettingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC24A99B1D405467007A1141 /* Build configuration list for PBXNativeTarget "LanguageSettingDemoTests" */;
+			buildPhases = (
+				EC24A9801D405467007A1141 /* Sources */,
+				EC24A9811D405467007A1141 /* Frameworks */,
+				EC24A9821D405467007A1141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC24A9861D405467007A1141 /* PBXTargetDependency */,
+			);
+			name = LanguageSettingDemoTests;
+			productName = LanguageSettingDemoTests;
+			productReference = EC24A9841D405467007A1141 /* LanguageSettingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC24A98E1D405467007A1141 /* LanguageSettingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC24A99E1D405467007A1141 /* Build configuration list for PBXNativeTarget "LanguageSettingDemoUITests" */;
+			buildPhases = (
+				EC24A98B1D405467007A1141 /* Sources */,
+				EC24A98C1D405467007A1141 /* Frameworks */,
+				EC24A98D1D405467007A1141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC24A9911D405467007A1141 /* PBXTargetDependency */,
+			);
+			name = LanguageSettingDemoUITests;
+			productName = LanguageSettingDemoUITests;
+			productReference = EC24A98F1D405467007A1141 /* LanguageSettingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC24A9631D405467007A1141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fish;
+				TargetAttributes = {
+					EC24A96A1D405467007A1141 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EC24A9831D405467007A1141 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC24A96A1D405467007A1141;
+					};
+					EC24A98E1D405467007A1141 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC24A96A1D405467007A1141;
+					};
+				};
+			};
+			buildConfigurationList = EC24A9661D405467007A1141 /* Build configuration list for PBXProject "LanguageSettingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = EC24A9621D405467007A1141;
+			productRefGroup = EC24A96C1D405467007A1141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC24A96A1D405467007A1141 /* LanguageSettingDemo */,
+				EC24A9831D405467007A1141 /* LanguageSettingDemoTests */,
+				EC24A98E1D405467007A1141 /* LanguageSettingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC24A9691D405467007A1141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC24A97E1D405467007A1141 /* LaunchScreen.storyboard in Resources */,
+				EC12E96B1D40CB6C00056016 /* Person.strings in Resources */,
+				EC24A97B1D405467007A1141 /* Assets.xcassets in Resources */,
+				EC24A9791D405467007A1141 /* Main.storyboard in Resources */,
+				EC12E9681D40C86D00056016 /* Main.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC24A9821D405467007A1141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC24A98D1D405467007A1141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC24A9671D405467007A1141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC24A9761D405467007A1141 /* ViewController.m in Sources */,
+				EC24A9AB1D405E91007A1141 /* ViewController2.m in Sources */,
+				EC24A9731D405467007A1141 /* AppDelegate.m in Sources */,
+				EC24A9701D405467007A1141 /* main.m in Sources */,
+				EC12E9631D40BE9F00056016 /* FSLanguageTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC24A9801D405467007A1141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC24A9891D405467007A1141 /* LanguageSettingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC24A98B1D405467007A1141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC24A9941D405467007A1141 /* LanguageSettingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC24A9861D405467007A1141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC24A96A1D405467007A1141 /* LanguageSettingDemo */;
+			targetProxy = EC24A9851D405467007A1141 /* PBXContainerItemProxy */;
+		};
+		EC24A9911D405467007A1141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC24A96A1D405467007A1141 /* LanguageSettingDemo */;
+			targetProxy = EC24A9901D405467007A1141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC12E96D1D40CB6C00056016 /* Person.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC12E96C1D40CB6C00056016 /* Base */,
+				EC12E96E1D40CB7600056016 /* en */,
+				EC12E96F1D40CB7800056016 /* zh-Hans */,
+			);
+			name = Person.strings;
+			sourceTree = "<group>";
+		};
+		EC24A9771D405467007A1141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC24A9781D405467007A1141 /* Base */,
+				EC12E9691D40C8F000056016 /* zh-Hans */,
+				EC12E9711D40CB9100056016 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC24A97C1D405467007A1141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC24A97D1D405467007A1141 /* Base */,
+				EC12E96A1D40C8F000056016 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC24A9961D405467007A1141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC24A9971D405467007A1141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC24A9991D405467007A1141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LanguageSettingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intretech.LanguageSettingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC24A99A1D405467007A1141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LanguageSettingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intretech.LanguageSettingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC24A99C1D405467007A1141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LanguageSettingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intretech.LanguageSettingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageSettingDemo.app/LanguageSettingDemo";
+			};
+			name = Debug;
+		};
+		EC24A99D1D405467007A1141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LanguageSettingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intretech.LanguageSettingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageSettingDemo.app/LanguageSettingDemo";
+			};
+			name = Release;
+		};
+		EC24A99F1D405467007A1141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LanguageSettingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intretech.LanguageSettingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LanguageSettingDemo;
+			};
+			name = Debug;
+		};
+		EC24A9A01D405467007A1141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LanguageSettingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intretech.LanguageSettingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LanguageSettingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC24A9661D405467007A1141 /* Build configuration list for PBXProject "LanguageSettingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC24A9961D405467007A1141 /* Debug */,
+				EC24A9971D405467007A1141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC24A9981D405467007A1141 /* Build configuration list for PBXNativeTarget "LanguageSettingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC24A9991D405467007A1141 /* Debug */,
+				EC24A99A1D405467007A1141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC24A99B1D405467007A1141 /* Build configuration list for PBXNativeTarget "LanguageSettingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC24A99C1D405467007A1141 /* Debug */,
+				EC24A99D1D405467007A1141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC24A99E1D405467007A1141 /* Build configuration list for PBXNativeTarget "LanguageSettingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC24A99F1D405467007A1141 /* Debug */,
+				EC24A9A01D405467007A1141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC24A9631D405467007A1141 /* Project object */;
+}

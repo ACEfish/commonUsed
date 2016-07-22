@@ -1,0 +1,12 @@
+
+/* Class = "UITabBarItem"; title = "切换"; ObjectID = "5Dw-Fi-Xhe"; */
+"5Dw-Fi-Xhe.title" = "切换";
+
+/* Class = "UITabBarItem"; title = "中文"; ObjectID = "PRQ-TJ-AK7"; */
+"PRQ-TJ-AK7.title" = "中文";
+
+/* Class = "UIButton"; normalTitle = "切换"; ObjectID = "ifi-fS-7hh"; */
+"ifi-fS-7hh.normalTitle" = "切换";
+
+/* Class = "UILabel"; text = "中文"; ObjectID = "u1G-ms-qzl"; */
+"u1G-ms-qzl.text" = "中文";
