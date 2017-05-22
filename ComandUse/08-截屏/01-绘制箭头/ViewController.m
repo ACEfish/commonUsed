@@ -33,10 +33,34 @@
     //4.取出图片，
     UIImage *currentImage=UIGraphicsGetImageFromCurrentImageContext();
     NSData *imageData=UIImagePNGRepresentation(currentImage);
-    [imageData writeToFile:@"/Users/qingyun/Desktop/Screen.png" atomically:YES];
+    [imageData writeToFile:@"/Users/yq06906/Desktop/Screen.png" atomically:YES];
+    
+    //保存图片到手机
+    
+    UIImageWriteToSavedPhotosAlbum(currentImage, self, @selector(imageSavedToPhotosAlbum:didFinishSavingWithError:contextInfo:), nil);
     
     //.关闭图形上下文
     UIGraphicsEndImageContext();
+    
+}
+
+
+//保存图片到手机代理
+- (void)imageSavedToPhotosAlbum:(UIImage*)image didFinishSavingWithError:(NSError*)error contextInfo:(void*)contextInfo {
+    
+    NSString*message =@"";
+    
+    if(!error) {
+        
+        message =@"成功保存到相册";
+        
+        
+    } else {
+        
+        message = [error description];
+        
+        
+    }
     
 }
 

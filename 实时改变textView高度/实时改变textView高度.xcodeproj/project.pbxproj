@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3F12141DC3216100A7AD62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3F12131DC3216100A7AD62 /* main.m */; };
+		EC3F12171DC3216100A7AD62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3F12161DC3216100A7AD62 /* AppDelegate.m */; };
+		EC3F121A1DC3216100A7AD62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3F12191DC3216100A7AD62 /* ViewController.m */; };
+		EC3F121D1DC3216100A7AD62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3F121B1DC3216100A7AD62 /* Main.storyboard */; };
+		EC3F121F1DC3216100A7AD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3F121E1DC3216100A7AD62 /* Assets.xcassets */; };
+		EC3F12221DC3216100A7AD62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3F12201DC3216100A7AD62 /* LaunchScreen.storyboard */; };
+		EC3F122D1DC3216100A7AD62 /* ____textView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3F122C1DC3216100A7AD62 /* ____textView__Tests.m */; };
+		EC3F12381DC3216100A7AD62 /* ____textView__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3F12371DC3216100A7AD62 /* ____textView__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3F12291DC3216100A7AD62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3F12071DC3216100A7AD62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3F120E1DC3216100A7AD62;
+			remoteInfo = "实时改变textView高度";
+		};
+		EC3F12341DC3216100A7AD62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC3F12071DC3216100A7AD62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3F120E1DC3216100A7AD62;
+			remoteInfo = "实时改变textView高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC3F120F1DC3216100A7AD62 /* 实时改变textView高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "实时改变textView高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3F12131DC3216100A7AD62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC3F12151DC3216100A7AD62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC3F12161DC3216100A7AD62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC3F12181DC3216100A7AD62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC3F12191DC3216100A7AD62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC3F121C1DC3216100A7AD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3F121E1DC3216100A7AD62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC3F12211DC3216100A7AD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC3F12231DC3216100A7AD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3F12281DC3216100A7AD62 /* 实时改变textView高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实时改变textView高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3F122C1DC3216100A7AD62 /* ____textView__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____textView__Tests.m"; sourceTree = "<group>"; };
+		EC3F122E1DC3216100A7AD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3F12331DC3216100A7AD62 /* 实时改变textView高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实时改变textView高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3F12371DC3216100A7AD62 /* ____textView__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____textView__UITests.m"; sourceTree = "<group>"; };
+		EC3F12391DC3216100A7AD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3F120C1DC3216100A7AD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3F12251DC3216100A7AD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3F12301DC3216100A7AD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC3F12061DC3216100A7AD62 = {
+			isa = PBXGroup;
+			children = (
+				EC3F12111DC3216100A7AD62 /* 实时改变textView高度 */,
+				EC3F122B1DC3216100A7AD62 /* 实时改变textView高度Tests */,
+				EC3F12361DC3216100A7AD62 /* 实时改变textView高度UITests */,
+				EC3F12101DC3216100A7AD62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3F12101DC3216100A7AD62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F120F1DC3216100A7AD62 /* 实时改变textView高度.app */,
+				EC3F12281DC3216100A7AD62 /* 实时改变textView高度Tests.xctest */,
+				EC3F12331DC3216100A7AD62 /* 实时改变textView高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3F12111DC3216100A7AD62 /* 实时改变textView高度 */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F12151DC3216100A7AD62 /* AppDelegate.h */,
+				EC3F12161DC3216100A7AD62 /* AppDelegate.m */,
+				EC3F12181DC3216100A7AD62 /* ViewController.h */,
+				EC3F12191DC3216100A7AD62 /* ViewController.m */,
+				EC3F121B1DC3216100A7AD62 /* Main.storyboard */,
+				EC3F121E1DC3216100A7AD62 /* Assets.xcassets */,
+				EC3F12201DC3216100A7AD62 /* LaunchScreen.storyboard */,
+				EC3F12231DC3216100A7AD62 /* Info.plist */,
+				EC3F12121DC3216100A7AD62 /* Supporting Files */,
+			);
+			path = "实时改变textView高度";
+			sourceTree = "<group>";
+		};
+		EC3F12121DC3216100A7AD62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F12131DC3216100A7AD62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC3F122B1DC3216100A7AD62 /* 实时改变textView高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F122C1DC3216100A7AD62 /* ____textView__Tests.m */,
+				EC3F122E1DC3216100A7AD62 /* Info.plist */,
+			);
+			path = "实时改变textView高度Tests";
+			sourceTree = "<group>";
+		};
+		EC3F12361DC3216100A7AD62 /* 实时改变textView高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F12371DC3216100A7AD62 /* ____textView__UITests.m */,
+				EC3F12391DC3216100A7AD62 /* Info.plist */,
+			);
+			path = "实时改变textView高度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3F120E1DC3216100A7AD62 /* 实时改变textView高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3F123C1DC3216100A7AD62 /* Build configuration list for PBXNativeTarget "实时改变textView高度" */;
+			buildPhases = (
+				EC3F120B1DC3216100A7AD62 /* Sources */,
+				EC3F120C1DC3216100A7AD62 /* Frameworks */,
+				EC3F120D1DC3216100A7AD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "实时改变textView高度";
+			productName = "实时改变textView高度";
+			productReference = EC3F120F1DC3216100A7AD62 /* 实时改变textView高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3F12271DC3216100A7AD62 /* 实时改变textView高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3F123F1DC3216100A7AD62 /* Build configuration list for PBXNativeTarget "实时改变textView高度Tests" */;
+			buildPhases = (
+				EC3F12241DC3216100A7AD62 /* Sources */,
+				EC3F12251DC3216100A7AD62 /* Frameworks */,
+				EC3F12261DC3216100A7AD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3F122A1DC3216100A7AD62 /* PBXTargetDependency */,
+			);
+			name = "实时改变textView高度Tests";
+			productName = "实时改变textView高度Tests";
+			productReference = EC3F12281DC3216100A7AD62 /* 实时改变textView高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC3F12321DC3216100A7AD62 /* 实时改变textView高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3F12421DC3216100A7AD62 /* Build configuration list for PBXNativeTarget "实时改变textView高度UITests" */;
+			buildPhases = (
+				EC3F122F1DC3216100A7AD62 /* Sources */,
+				EC3F12301DC3216100A7AD62 /* Frameworks */,
+				EC3F12311DC3216100A7AD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3F12351DC3216100A7AD62 /* PBXTargetDependency */,
+			);
+			name = "实时改变textView高度UITests";
+			productName = "实时改变textView高度UITests";
+			productReference = EC3F12331DC3216100A7AD62 /* 实时改变textView高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC3F12071DC3216100A7AD62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = fish;
+				TargetAttributes = {
+					EC3F120E1DC3216100A7AD62 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UWRJNNALTK;
+						ProvisioningStyle = Automatic;
+					};
+					EC3F12271DC3216100A7AD62 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UWRJNNALTK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC3F120E1DC3216100A7AD62;
+					};
+					EC3F12321DC3216100A7AD62 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UWRJNNALTK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC3F120E1DC3216100A7AD62;
+					};
+				};
+			};
+			buildConfigurationList = EC3F120A1DC3216100A7AD62 /* Build configuration list for PBXProject "实时改变textView高度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC3F12061DC3216100A7AD62;
+			productRefGroup = EC3F12101DC3216100A7AD62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3F120E1DC3216100A7AD62 /* 实时改变textView高度 */,
+				EC3F12271DC3216100A7AD62 /* 实时改变textView高度Tests */,
+				EC3F12321DC3216100A7AD62 /* 实时改变textView高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3F120D1DC3216100A7AD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3F12221DC3216100A7AD62 /* LaunchScreen.storyboard in Resources */,
+				EC3F121F1DC3216100A7AD62 /* Assets.xcassets in Resources */,
+				EC3F121D1DC3216100A7AD62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3F12261DC3216100A7AD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3F12311DC3216100A7AD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3F120B1DC3216100A7AD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3F121A1DC3216100A7AD62 /* ViewController.m in Sources */,
+				EC3F12171DC3216100A7AD62 /* AppDelegate.m in Sources */,
+				EC3F12141DC3216100A7AD62 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3F12241DC3216100A7AD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3F122D1DC3216100A7AD62 /* ____textView__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3F122F1DC3216100A7AD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3F12381DC3216100A7AD62 /* ____textView__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3F122A1DC3216100A7AD62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3F120E1DC3216100A7AD62 /* 实时改变textView高度 */;
+			targetProxy = EC3F12291DC3216100A7AD62 /* PBXContainerItemProxy */;
+		};
+		EC3F12351DC3216100A7AD62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3F120E1DC3216100A7AD62 /* 实时改变textView高度 */;
+			targetProxy = EC3F12341DC3216100A7AD62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC3F121B1DC3216100A7AD62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3F121C1DC3216100A7AD62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3F12201DC3216100A7AD62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3F12211DC3216100A7AD62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3F123A1DC3216100A7AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC3F123B1DC3216100A7AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3F123D1DC3216100A7AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UWRJNNALTK;
+				INFOPLIST_FILE = "实时改变textView高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intretech.----textView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC3F123E1DC3216100A7AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UWRJNNALTK;
+				INFOPLIST_FILE = "实时改变textView高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intretech.----textView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC3F12401DC3216100A7AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UWRJNNALTK;
+				INFOPLIST_FILE = "实时改变textView高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intretech.----textView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/实时改变textView高度.app/实时改变textView高度";
+			};
+			name = Debug;
+		};
+		EC3F12411DC3216100A7AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UWRJNNALTK;
+				INFOPLIST_FILE = "实时改变textView高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intretech.----textView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/实时改变textView高度.app/实时改变textView高度";
+			};
+			name = Release;
+		};
+		EC3F12431DC3216100A7AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UWRJNNALTK;
+				INFOPLIST_FILE = "实时改变textView高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intretech.----textView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "实时改变textView高度";
+			};
+			name = Debug;
+		};
+		EC3F12441DC3216100A7AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UWRJNNALTK;
+				INFOPLIST_FILE = "实时改变textView高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intretech.----textView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "实时改变textView高度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3F120A1DC3216100A7AD62 /* Build configuration list for PBXProject "实时改变textView高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3F123A1DC3216100A7AD62 /* Debug */,
+				EC3F123B1DC3216100A7AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3F123C1DC3216100A7AD62 /* Build configuration list for PBXNativeTarget "实时改变textView高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3F123D1DC3216100A7AD62 /* Debug */,
+				EC3F123E1DC3216100A7AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC3F123F1DC3216100A7AD62 /* Build configuration list for PBXNativeTarget "实时改变textView高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3F12401DC3216100A7AD62 /* Debug */,
+				EC3F12411DC3216100A7AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC3F12421DC3216100A7AD62 /* Build configuration list for PBXNativeTarget "实时改变textView高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3F12431DC3216100A7AD62 /* Debug */,
+				EC3F12441DC3216100A7AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC3F12071DC3216100A7AD62 /* Project object */;
+}
